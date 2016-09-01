@@ -1,0 +1,98 @@
+/**
+ * atik cms website - stylesheet
+ */
+
+@import url(normalize.css);
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+/**
+ * Google Web Fonts
+ */
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600|Source+Serif+Pro:400,600|Inconsolata);
+
+/**
+ * Basic styles
+ */
+body {
+    font: 16px "Source Serif Pro", serif;
+    color: #111;
+}
+
+a:link,
+a:visited {
+    color: #ff851b;
+    text-decoration: underline;
+}
+a:hover,
+a:active {
+    color: #555;
+}
+
+img {
+    max-width: 100%;
+}
+
+.product-name {
+    white-space: nowrap;
+    font: .8em Inconsolata,monospace;
+}
+
+/**
+ * Header
+ */
+header {
+    margin: 0;
+    padding: 1em .5em;
+    border-bottom: .3em solid #ff851b;
+    text-align: center;
+}
+header h1 {
+    font: 1.7em "Source Serif Pro", serif;
+    font-weight: bold;
+}
+header h1 a:link,
+header h1 a:visited {
+    color: #111;
+    text-decoration: none;
+}
+header h1 a:hover,
+header h1 a:active {
+    text-decoration: underline;
+}
+header img {
+    width: 96px;
+}
+header .logo-link {
+    display: none;
+}
+
+/**
+ * Main content
+ */
+main {
+    padding: 0 .5em;
+    margin: 0 auto;
+    width: 37.5em; /* 600px */
+    max-width: 100%;
+}
+main h3 {
+    font: 1.3em " Source Serif Pro",serif;
+    font-weight: 600;
+}
+
+
+/**
+ * Footer
+ */
+footer {
+    margin: 0;
+    padding: 1.5em .5em 1em;
+    text-align: center;
+}
+footer p {
+    margin: 0 0 .6em;
+    font-size: 0.75em;
+}
